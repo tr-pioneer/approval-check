@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Approval check</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="page-container">
+        <header>
+            <div class="title">
+                <h1>Check if you are approved</h1>
+            </div>
+        </header>
+
+        <main>
+             <p>
+                Put your grades and number of classes you were absent in the form below. Then press calculate.  
+             </p>
+
+             <li>Minimum 70% presence is required to be approved (total number of classes is 20).</li>
+             <li>Minimum average of 6.5 is required to get approved.</li>
+
+             <br> 
+
+             <input id="grade1" type="number" placeholder="Type grade 1..."> &nbsp;&nbsp; <b>Grade 1</b> <br>
+
+             <input id="grade2" type="number" placeholder="Type grade 2..."> &nbsp;&nbsp; <b>Grade 2</b> <br>
+
+             <input id="absences" type="number" placeholder="Type number of absences...">  &nbsp;&nbsp; <b>Absences</b> <br>
+
+             <br>
+
+             <button id="calculate">Calculate</button>
+             <br><br><br>
+
+             
+             <div id="result">
+                 <b style="color: black;">Print the student's result.</b>
+             </div>
+        </main>
+
+     </div>
+     <script src="script.js"></script>
+ </body>
+</html>
